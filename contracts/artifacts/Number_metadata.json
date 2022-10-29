@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "changeNumber",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "number",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNumber0",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "number",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/funcionesxd.sol": "Number"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/funcionesxd.sol": {
+			"keccak256": "0x49df0483fc4b736095bcd6da5e261e1b86e3f79729d41ef43ebce70843f7c946",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e1b1a6b1ce2fe30f674535992c1ae10e98e82ce82b294678a13c781a694898b0",
+				"dweb:/ipfs/QmUqY67oY22SSFVwyhM7ZG1bx2mp8uytiEZ1ks48c3ZDtw"
+			]
+		}
+	},
+	"version": 1
+}
